@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+.header{
+
+    background-image:linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%), url('../images/anhnen.jpg');
+    background-size: cover;
+    background-position: center;
+    max-height: 800px;
+   
+}
+.header-menu{
+    display: flex;
+    height: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: space-between;
+ 
+}
+.header-menu .left-section img{
+    height: 100%;
+}
+.header-menu .left-section{
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+}
+.header-menu .right-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+     
+}
+.right-section .language{
+    margin-right: 10px;
+    border: 1px solid #fff;
+    padding: 5px 6px;
+    border-radius: 5px;
+
+}
+.right-section .language select{
+    border: none;
+    background: none;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+    outline: none;
+}
+.right-section .language select option{
+    color: #000;
+    
+   
+}
+.right-section .language .fa{
+    color: #fff;
+}
+.right-section button{
+    padding: 6px 7px;
+    border: none;
+    background: red;
+    border: 5px;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.header-content{
+    margin-top:150px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.header-content .title{
+    font-size: 40px;
+    text-align: center;
+    font-weight: 900;
+    max-width: 900px;
+   
+}
+.header-content .desc{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+}
+.header-content .contact-message{
+    font-size: 20px;
+    margin: 20px 0px;
+    text-align: center;
+    max-width: 900px;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 150px;
+}
+.contact input{
+    height: 60px;
+    width: 300px;
+    border: 1px solid #ddd;
+    background: transparent;
+    padding: 12px;
+    font-size: 16px;
+    color: #fff;
+    margin-right: 10px;
+}
+.contact input::placeholder{
+    color: #fff;
+}
+.contact button{
+    height: 61px;
+    width: 150px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    background: red;
+}
+.section-tv{
+    max-height: 800px;
+    color: #fff;
+    background: #000;
+    border-top: 8px solid #232323;
+     
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 200px;
+
+}
+.img-content img{
+    height: 400px;
+}
+.section-tv .section-content{
+    
+}
+.section-content .title{
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    
+}
+.section-content .desc
+{
+    font-size: 25px;
+    text-wrap: wrap;
+}
+.section-tv .tv{
+    height: 100%;
+    width: 100%;
+}
+.question{
+    
+    background: #000;
+    color: #fff;
+    border-bottom: 8px solid #232323;
+    padding-bottom: 50px;
+}
+.list-question{
+    display: flex;
+    flex-direction: column;
+}
+.question .title{
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 30px;
+    border-top: 8px solid #232323;
+}
+.question-item{
+    margin: 0px 150px;
+    margin-top: 10px;
+}
+.question-header{
+    display: flex;
+    justify-content: space-between;
+    background: #414141;
+    height: 80px;
+    align-items: center;
+    padding: 0px 50px;
+    font-size: 20px;
+}
+.answer{
+    background: #414141;
+    padding: 12px 50px;
+    font-size: 20px;
+    margin-top: 1px;
+}
+.contact-question{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container-input{
+    width: 80%;
+    display: flex;
+    flex-basis: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.contact-question p{
+    font-size: 26px;
+    max-width: 900px;
+    text-align: center;
+    margin-bottom: 15px;
+    
+}
+.contact-question input{
+    height: 60px;
+    width: 40%;
+    padding: 0px 12px;
+    background: transparent;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+.contact-question input::placeholder{
+    color: #fff;
+    font-size: 16px;
+}
+.contact-question button{
+    border: none;
+    background: red;
+    height: 60px;
+    padding: 0px 20px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.footer{
+    background: #000;
+    color: #ddd;
+    padding: 15px 200px;
+    padding-bottom: 50px;
+}
+.question-section{
+    list-style-type: none;
+    
+}
+.container-section{
+    display: flex;
+    
+}
+.question-section{
+    flex-basis: 25%;
+}
+ul li{
+    line-height: 30px;
+    text-decoration: underline;
+}
+.language{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    width:150px;
+    padding: 10px 5px;
+    border-radius: 5px;
+}
+.language .fa{
+    padding-left: 2px;
+}
+.language select{
+    width: 80%;
+    font-size: 16px;
+    color: #ddd;
+    background: none;
+    border: none;
+    outline: none;
+}
+.language option{
+    color: #000;
+}
+/* responsive header */
+@media (max-width: 1024px) {
+    
+}
+@media(max-width:1022px){
+    .container{
+         
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .section-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 0px;
+        flex-basis: 100%;
+    }
+    .section-tv  #mobile{
+        order: 1;
+    }
+    .tv{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+  
+}
