@@ -385,6 +385,9 @@ ul li{
    animation: animate 2s linear infinite;
 
 }
+.play-movie:hover{
+    cursor: pointer;
+}
 .about-movie{
     background: #000;
     color: #fff;
