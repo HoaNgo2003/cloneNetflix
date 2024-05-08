@@ -25,8 +25,9 @@
                         <option value="">English</option>
                     </select>
                 </div>
-                <button>
-                    Đăng nhập
+                <button onclick='window.location.href = "moviepage.php"'
+                >
+                    Khám phá
                 </button>
             </div>
         </div>

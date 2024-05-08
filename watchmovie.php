@@ -1,3 +1,6 @@
+<?php
+@include 'config.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -55,7 +58,9 @@
         <i class="fa-solid fa-arrow-right play-movie play-movie-1"> Xem ngay</i>
         <div class="video-container">
             <div class="video-box">
-                <video id="video-film" src="images/Jumanji.mp4" controls></video>
+                 
+                <iframe id="video-film" width="560" height="315" src="https://www.youtube.com/embed/TBjKcuGI0kI?si=FTd4TKW6Pi5vnEy7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                
                 <i class="fa-solid fa-x close-video"></i>
             </div>
         </div>
